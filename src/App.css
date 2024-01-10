@@ -1,0 +1,141 @@
+/* Resetting default styles and setting a background color */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333; /* Dark text color for better readability */
+}
+
+/* Styling for the company logo */
+.company-logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Overall styling for the main app container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Header styling including background color and logo size */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #0077b6;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+}
+
+/* Styling for the company logo inside the header */
+header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Styling for the main heading */
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Styling for the main content section */
+.main-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Styling for the sensors container */
+.sensors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Styling for individual sensor cards */
+.sensor-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+/* Hover effect on sensor cards */
+.sensor-card:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for selected sensor cards */
+.selected {
+  background-color: #0077b6;
+  color: black;
+}
+
+/* Styling for sensor details container */
+.sensor-details {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+}
+
+/* Styling for the button container */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  justify-content: space-around;
+}
+
+/* Styling for the connection status container */
+.connection-status {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Styling for buttons */
+button {
+  color: #f0f0f0;
+  background-color: #0077b6;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect on buttons */
+button:hover {
+  background-color: #005689;
+}
+
+/* Styling for the compass container */
+.compass-container {
+  display: block;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+/* Styling for the compass image */
+.compass {
+  display: block;
+  width: 100px;
+  justify-content:center;
+  position: relative;
+  bottom: 10px;
+  margin-top: 30px;
+}
